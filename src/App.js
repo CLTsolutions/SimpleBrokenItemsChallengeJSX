@@ -1,13 +1,13 @@
-import "./App.css";
+import './App.css'
 //               STYLING SYNTAX IMPORTS
-// import FirstOne from "./components/RegularItems/FirstOne";
+import FirstOne from './components/RegularItems/FirstOne'
 // import Card from "./components/RegularItems/Card/Card";
 // import VerticalCard from "./components/RegularItems/Card/verticalcard/VerticalCard";
 //                    API IMPORTS
-// import ApiTwo from "./components/api/ApiTwo";
-// import ApiOne from "./components/api/ApiOne";
-// import ApiThree from "./components/api/ApiThree";
-// import UnsplashFetch from "./components/api/ApiFour";
+import ApiTwo from './components/api/ApiTwo'
+import ApiOne from './components/api/ApiOne'
+import ApiThree from './components/api/ApiThree'
+import UnsplashFetch from './components/api/ApiFour'
 
 // if you need hints for any of the problems just message me
 
@@ -22,15 +22,15 @@ function App() {
 
   //once you are done with the "Broken APIs Section" take the style tag off of the Syntax Errors part.
   return (
-    <div className="App">
-      <section>
+    <div className='App'>
+      <section style={{ display: 'none' }}>
         <h1>Broken APIS Section</h1>
         {/* <section>
-        <ApiOne />
-      </section> */}
+          <ApiOne />
+        </section> */}
         {/* <section>
-        <ApiTwo />
-      </section> */}
+          <ApiTwo />
+        </section> */}
         {/* <section>
           <ApiThree />
         </section> */}
@@ -39,15 +39,15 @@ function App() {
         </section> */}
       </section>
       {/* TAKE OFF THIS STYLE ONCE YOU GET TO THIS POINT  */}
-      <section style={{ display: "none" }}>
+      <section>
         <h1>Syntax Errors/CSS Errors</h1>
-        {/* <FirstOne /> */}
+        <FirstOne />
         {/* <Card /> */}
         {/* do not cheat and look at this ones styling to figure out the challenge for the above one GL */}
         {/* <VerticalCard /> */}
       </section>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

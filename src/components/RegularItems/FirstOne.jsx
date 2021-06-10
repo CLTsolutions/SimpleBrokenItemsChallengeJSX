@@ -5,7 +5,7 @@ import "./FirstOne.styles.css";
 //there is 8 errors between this page and the css file
 const FirstOne = () => {
   return (
-    <div> 
+    <div>
       <nav className="topNav">
         <a className="itemLink" href="#">
           Error Pages
@@ -16,7 +16,7 @@ const FirstOne = () => {
           </a>
           <a className="navMenuLinks" href="#">
             Menu
-          
+
           <a className="navMenuLinks" href="#">
             Item
           </a>
@@ -29,4 +29,4 @@ const FirstOne = () => {
   );
 };
 
-export FirstOne;
+export default FirstOne;
