@@ -1,8 +1,8 @@
 import './App.css'
 //               STYLING SYNTAX IMPORTS
 import FirstOne from './components/RegularItems/FirstOne'
-// import Card from "./components/RegularItems/Card/Card";
-// import VerticalCard from "./components/RegularItems/Card/verticalcard/VerticalCard";
+import Card from './components/RegularItems/Card/Card'
+import VerticalCard from './components/RegularItems/Card/verticalcard/VerticalCard'
 //                    API IMPORTS
 import ApiTwo from './components/api/ApiTwo'
 import ApiOne from './components/api/ApiOne'
@@ -42,9 +42,9 @@ function App() {
       <section>
         <h1>Syntax Errors/CSS Errors</h1>
         <FirstOne />
-        {/* <Card /> */}
+        <Card />
         {/* do not cheat and look at this ones styling to figure out the challenge for the above one GL */}
-        {/* <VerticalCard /> */}
+        <VerticalCard />
       </section>
     </div>
   )
