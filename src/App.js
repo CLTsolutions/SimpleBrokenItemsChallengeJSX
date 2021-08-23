@@ -45,7 +45,6 @@ function App() {
         <Card />
         {/* do not cheat and look at this ones styling to figure out the challenge for the above one GL */}
         <VerticalCard />
-        {/* comment */}
       </section>
     </div>
   )
